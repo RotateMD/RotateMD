@@ -193,7 +193,7 @@ export default function WaitlistForm() {
           </button>
 
           <p className="text-center text-xs text-gray-500 mt-4">
-            We respect your privacy. No spam, ever.
+            Early access opens before the next away rotation cycle. We&apos;ll only email you when RotateMD is ready.
           </p>
         </form>
       </div>

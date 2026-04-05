@@ -89,7 +89,7 @@ export default function Hero() {
                 <p className="text-red-400 text-sm mt-2">Something went wrong. Try again.</p>
               )}
               <p className="text-gray-500 text-sm mt-4">
-                Join the waitlist — no spam, ever.{" "}
+                We&apos;ll only email you when RotateMD is ready.{" "}
                 <a href="#waitlist" className="text-blue-light hover:underline">
                   Or fill out the full form below ↓
                 </a>
