@@ -62,7 +62,7 @@ export default function HowItWorks() {
           {steps.map((step) => (
             <div
               key={step.number}
-              className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-blue-accent/30 hover:bg-white/8 transition-all duration-300 group"
+              className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-blue-accent/30 hover:bg-white/[0.08] transition-all duration-300 group"
             >
               {/* Step number */}
               <span className="absolute top-6 right-6 text-5xl font-bold text-white/5 group-hover:text-blue-accent/10 transition-colors">

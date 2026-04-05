@@ -74,6 +74,7 @@ export default function Hero() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email"
+                  aria-label="Email address"
                   className="flex-1 px-5 py-3.5 rounded-full bg-white/10 border border-white/15 text-white placeholder-gray-400 focus:outline-none focus:border-blue-accent/50 focus:ring-1 focus:ring-blue-accent/50 transition-colors text-base"
                 />
                 <button
