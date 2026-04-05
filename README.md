@@ -1,60 +1,36 @@
-# RotateMD
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A verified platform for medical students to find compatible roommates during away rotations, reducing short-term housing costs through trusted peer matching.
+## Getting Started
 
-## Problem
-Medical students completing away rotations struggle to find affordable, safe, compatible housing. Current channels are fragmented (Facebook groups, spreadsheets, word-of-mouth) and lack verification.
+First, run the development server:
 
-## Target Users
-- 4th-year medical students doing away rotations
-- International medical students rotating in the U.S.
-- Residents doing short-term electives
-- Adjacent: traveling healthcare trainees (PA, nursing)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Proposed Solution (MVP)
-A verified, student-only network where users:
-- Create a profile and verify via institutional email + ID
-- Post rotations (dates, institution, city, specialty)
-- Discover compatible roommates based on overlap
-- Connect and share contact info for off-platform coordination
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Core Features
-- Rotation posting
-- Browse/search matching rotations
-- Verification flow (email + ID)
-- Contact reveal gated by verification
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## High-Level Data Model
-**Users**
-- id, name, school, email, email_verified, id_verified, profile_photo, social_media, created_at
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-**Rotations**
-- id, user_id, institution, city, specialty, start_date, end_date, housing_preference_optional, created_at, updated_at
+## Learn More
 
-**Matches**
-- id, matched_user_id, overlap_percentage
+To learn more about Next.js, take a look at the following resources:
 
-**Matching Logic**
-- overlap = overlap_days / total_days
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Key Flows
-- Onboarding: sign up → verify → post first rotation → browse matches → connect
-- Edit rotation: list → edit/delete
-- Multi-rotation: add multiple rotations and group matches by rotation
-- Cold start: show “no matches yet” + invite classmates
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Launch Plan (Draft)
-- Phase 1: landing page + waitlist, manual onboarding
-- Phase 2: full signup/verification, rotation posting + matching
+## Deploy on Vercel
 
-## Success Metrics (Draft)
-- Profiles created
-- Connect attempts
-- Verified users
-- Rotation listings
-- Qualitative: “saved me hundreds of dollars”
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Next Steps
-- Convert requirements into user stories and acceptance criteria
-- Design initial IA and core screens
-- Decide MVP scope for V1 build
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
