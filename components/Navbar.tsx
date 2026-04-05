@@ -36,7 +36,7 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-5 sm:px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-teal-accent" />
@@ -99,7 +99,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-navy-900/98 backdrop-blur-md border-t border-white/10 px-6 pb-6">
+        <div className="md:hidden bg-navy-900/98 backdrop-blur-md border-t border-white/10 px-5 sm:px-6 pb-6">
           {links.map((l) => (
             <a
               key={l.href}

@@ -24,13 +24,13 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center bg-navy-900 bg-grid-pattern overflow-hidden">
+    <section className="relative min-h-[100svh] flex flex-col justify-center bg-navy-900 bg-grid-pattern overflow-hidden">
       {/* Decorative glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-accent/10 rounded-full blur-[120px] pointer-events-none z-0" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[300px] sm:w-[600px] h-[300px] sm:h-[600px] bg-blue-accent/10 rounded-full blur-[120px] pointer-events-none z-0" />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 pt-28 sm:pt-32 pb-16 sm:pb-20 text-center">
+      <div className="relative z-10 max-w-4xl mx-auto px-5 sm:px-6 pt-24 sm:pt-32 pb-12 sm:pb-20 text-center">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/10 mb-6 sm:mb-8 animate-fade-in-up opacity-0">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/10 mb-5 sm:mb-8 animate-fade-in-up opacity-0">
           <span className="w-1.5 h-1.5 rounded-full bg-teal-accent animate-pulse" />
           <span className="text-sm text-gray-200 tracking-wide">
             Exclusively for Medical Students
@@ -38,7 +38,7 @@ export default function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-5 sm:mb-6 animate-fade-in-up opacity-0 animation-delay-200">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight mb-4 sm:mb-6 animate-fade-in-up opacity-0 animation-delay-200">
           Find Your{" "}
           <span className="font-display italic text-blue-light">
             Away Rotation
@@ -47,7 +47,7 @@ export default function Hero() {
         </h1>
 
         {/* Subheadline */}
-        <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed animate-fade-in-up opacity-0 animation-delay-400">
+        <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-7 sm:mb-10 leading-relaxed animate-fade-in-up opacity-0 animation-delay-400">
           Connect with fourth-year medical students rotating at the same
           institution. Share housing costs, explore new cities together, and make
           your away rotations unforgettable.

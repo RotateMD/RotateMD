@@ -21,10 +21,10 @@ const trustPoints = [
 
 export default function Trust() {
   return (
-    <section id="trust" className="py-16 sm:py-24 px-6 bg-white">
+    <section id="trust" className="py-14 sm:py-24 px-5 sm:px-6 bg-white">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">
+        <div className="text-center mb-10 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-navy-900 mb-4">
             Why{" "}
             <span className="font-display italic text-blue-accent">
               RotateMD
@@ -37,7 +37,7 @@ export default function Trust() {
         </div>
 
         {/* Trust points grid */}
-        <div className="grid sm:grid-cols-2 gap-8 mb-20">
+        <div className="grid sm:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-20">
           {trustPoints.map((point) => (
             <div key={point.title} className="flex gap-4">
               <div className="shrink-0 w-12 h-12 rounded-xl bg-blue-accent/10 flex items-center justify-center text-blue-accent">

@@ -38,14 +38,14 @@ export default function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="py-16 sm:py-24 px-6 bg-navy-900 bg-grid-pattern relative overflow-hidden"
+      className="py-14 sm:py-24 px-5 sm:px-6 bg-navy-900 bg-grid-pattern relative overflow-hidden"
     >
       {/* Decorative glow */}
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-blue-accent/5 rounded-full blur-[100px] pointer-events-none z-0" />
 
       <div className="relative z-10 max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        <div className="text-center mb-10 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
             How{" "}
             <span className="font-display italic text-blue-light">
               RotateMD
@@ -58,11 +58,11 @@ export default function HowItWorks() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-5 sm:gap-8">
           {steps.map((step) => (
             <div
               key={step.number}
-              className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-blue-accent/30 hover:bg-white/[0.08] transition-all duration-300 group"
+              className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/10 hover:border-blue-accent/30 hover:bg-white/[0.08] transition-all duration-300 group"
             >
               {/* Step number */}
               <span className="absolute top-6 right-6 text-5xl font-bold text-white/5 group-hover:text-blue-accent/10 transition-colors">

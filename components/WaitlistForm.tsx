@@ -47,7 +47,7 @@ export default function WaitlistForm() {
     return (
       <section
         id="waitlist"
-        className="py-24 px-6 bg-navy-900 bg-grid-pattern relative overflow-hidden"
+        className="py-16 sm:py-24 px-5 sm:px-6 bg-navy-900 bg-grid-pattern relative overflow-hidden"
       >
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-teal-accent/10 rounded-full blur-[120px] pointer-events-none z-0" />
         <div className="relative max-w-lg mx-auto text-center">
@@ -74,13 +74,13 @@ export default function WaitlistForm() {
   return (
     <section
       id="waitlist"
-      className="py-24 px-6 bg-navy-900 bg-grid-pattern relative overflow-hidden"
+      className="py-16 sm:py-24 px-5 sm:px-6 bg-navy-900 bg-grid-pattern relative overflow-hidden"
     >
-      <div className="absolute top-0 left-1/4 w-[400px] h-[400px] bg-blue-accent/5 rounded-full blur-[100px] pointer-events-none z-0" />
+      <div className="absolute top-0 left-1/4 w-[300px] sm:w-[400px] h-[300px] sm:h-[400px] bg-blue-accent/5 rounded-full blur-[100px] pointer-events-none z-0" />
 
       <div className="relative z-10 max-w-xl mx-auto">
-        <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        <div className="text-center mb-8 sm:mb-10">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
             Be the First to{" "}
             <span className="font-display italic text-blue-light">Know</span>
           </h2>
@@ -92,7 +92,7 @@ export default function WaitlistForm() {
 
         <form
           onSubmit={handleSubmit}
-          className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10"
+          className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/10"
         >
           <div className="grid sm:grid-cols-2 gap-5 mb-5">
             <div>

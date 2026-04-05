@@ -38,9 +38,10 @@ body {
   z-index: 0;
 }
 
-/* Smooth scroll */
+/* Smooth scroll + anchor offset for fixed navbar */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 /* Animated gradient for hero */
@@ -81,3 +82,10 @@ html {
 .animation-delay-400 { animation-delay: 0.4s; }
 .animation-delay-600 { animation-delay: 0.6s; }
 .animation-delay-800 { animation-delay: 0.8s; }
+
+/* Tap highlight for mobile */
+@media (pointer: coarse) {
+  a, button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
