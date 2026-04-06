@@ -20,9 +20,6 @@ export default function Footer() {
             <a href="/terms" className="hover:text-gray-300 transition-colors">
               Terms of Service
             </a>
-            <a href="/liability" className="hover:text-gray-300 transition-colors">
-              Liability Waiver
-            </a>
             <a href="mailto:rotatemdapp@gmail.com" className="hover:text-gray-300 transition-colors">
               Contact
             </a>
