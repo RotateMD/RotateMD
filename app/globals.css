@@ -38,7 +38,7 @@ body {
   z-index: 0;
 }
 
-/* Smooth scroll + anchor offset for fixed navbar */
+/* Smooth scroll for anchor links, scroll-padding for fixed navbar */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;

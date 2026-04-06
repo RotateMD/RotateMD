@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import ScrollToTop from "@/components/ScrollToTop";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -62,6 +63,7 @@ export default function RootLayout({
       className={`${playfair.variable} ${dmSans.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-body">
+        <ScrollToTop />
         {children}
         <Analytics />
       </body>
