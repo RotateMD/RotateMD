@@ -17,7 +17,7 @@ export default function Footer() {
             <a href="/privacy" className="hover:text-gray-300 transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <a href="/terms" className="hover:text-gray-300 transition-colors">
               Terms of Service
             </a>
             <a href="mailto:rotatemdapp@gmail.com" className="hover:text-gray-300 transition-colors">
