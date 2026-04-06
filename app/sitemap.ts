@@ -10,13 +10,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: "https://rotatemd.com/privacy",
-      lastModified: new Date(),
+      lastModified: "2026-04-06",
       changeFrequency: "monthly",
       priority: 0.3,
     },
     {
       url: "https://rotatemd.com/terms",
-      lastModified: new Date(),
+      lastModified: "2026-04-06",
       changeFrequency: "monthly",
       priority: 0.3,
     },

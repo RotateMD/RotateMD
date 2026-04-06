@@ -41,11 +41,11 @@ export default function TermsOfService() {
 
           <p>
             We may make changes to these Terms from time to time. When we do, we
-            will revise the &quot;last updated&quot; date given above. It is your
-            responsibility to review these Terms periodically. The then-current
-            version of these Terms will supersede all earlier versions. Your
-            continued use of our Services after such changes have been published
-            will constitute your acceptance of such revised Terms.
+            will revise the &quot;last updated&quot; date given above. For
+            significant changes, we will provide at least 30 days&apos; notice as
+            described in Section 17. Your continued use of our Services after
+            such changes have been published will constitute your acceptance of
+            such revised Terms.
           </p>
 
           <p>
@@ -169,8 +169,9 @@ export default function TermsOfService() {
           </h2>
           <p>
             The purpose of RotateMD is to facilitate the pairing of medical
-            students as roommates during away rotations. By using our Services,
-            you acknowledge that:
+            students as roommates during away rotations. The following provisions
+            apply now and will continue to apply as RotateMD introduces matching
+            features. By using our Services, you acknowledge that:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
@@ -190,13 +191,13 @@ export default function TermsOfService() {
           </ul>
           <p>
             You understand that there are inherent risks involved in meeting and
-            residing with individuals who are found through the Website. You
+            residing with individuals who are found through the Site. You
             assume all risk of any harm or damages that occur as a consequence
             of meeting and/or residing with any other individual found through
-            the Website and expressly waive any and all claims, of any kind,
+            the Site and expressly waive any and all claims, of any kind,
             whether in tort, contract, or equity, against the Company that arise
-            from or otherwise relate to the use of the Website and/or meeting or
-            residing with individuals who are found through the Website.
+            from or otherwise relate to the use of the Site and/or meeting or
+            residing with individuals who are found through the Site.
           </p>
 
           <h2 className="text-2xl font-bold text-navy-900 mt-10 mb-4">
@@ -209,7 +210,7 @@ export default function TermsOfService() {
           <ul className="list-disc pl-6 space-y-2">
             <li>
               You are solely responsible for your interactions with other users
-              of the Service.
+              of the Services.
             </li>
             <li>
               You are solely responsible for conducting your own background
@@ -348,9 +349,9 @@ export default function TermsOfService() {
             MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
             NON-INFRINGEMENT. WE MAKE NO REPRESENTATIONS OR PROMISES OF ANY KIND
             CONCERNING THE SUITABILITY, SAFETY, OR BACKGROUND OF ANY OTHER PERSON
-            ON THE WEBSITE AND IT IS YOUR RESPONSIBILITY ALONE TO DETERMINE
+            ON THE SITE AND IT IS YOUR RESPONSIBILITY ALONE TO DETERMINE
             WHETHER TO MEET WITH AND/OR RESIDE WITH ANY OTHER INDIVIDUAL FOUND
-            THROUGH THE WEBSITE. WE DO NOT GUARANTEE THE ACCURACY, COMPLETENESS,
+            THROUGH THE SITE. WE DO NOT GUARANTEE THE ACCURACY, COMPLETENESS,
             OR USEFULNESS OF THE SERVICES, AND YOU RELY ON THE SERVICES AT YOUR
             OWN RISK. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED
             BY YOU FROM US OR THROUGH OUR SERVICES WILL CREATE ANY WARRANTY NOT
@@ -399,7 +400,7 @@ export default function TermsOfService() {
             15. Dispute Resolution
           </h2>
           <p>
-            Any disputes arising out of or related to the use of the Website or
+            Any disputes arising out of or related to the use of the Site or
             the Services shall be resolved through binding arbitration conducted
             in accordance with the rules of the American Arbitration Association.
             The arbitration shall take place in Orange County, California, and

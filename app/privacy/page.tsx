@@ -38,7 +38,11 @@ export default function PrivacyPolicy() {
 
           <p>
             By accessing or using our Site, you agree to the terms of this Privacy Policy. If you do
-            not agree with this Policy, please do not use the Site.
+            not agree with this Policy, please do not use the Site. Please also review our{" "}
+            <a href="/terms" className="text-blue-accent hover:underline">
+              Terms of Service
+            </a>
+            .
           </p>
 
           <p>
@@ -150,8 +154,9 @@ export default function PrivacyPolicy() {
             4. Sharing and Disclosure of Information
           </h2>
           <p>
-            We will never share your personal information with anyone unless required by law. We
-            do not sell, trade, or rent your personally identifiable information to third parties.
+            We do not sell, trade, or rent your personally identifiable
+            information to third parties. We only share it with service
+            providers necessary to operate the Site, and when required by law.
           </p>
           <p>
             The only third parties with access to your information are the service providers we
