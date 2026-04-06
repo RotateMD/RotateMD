@@ -255,10 +255,10 @@ export default function PrivacyPolicy() {
             RotateMD<br />
             Email:{" "}
             <a
-              href="mailto:hello@rotatemd.com"
+              href="mailto:rotatemdapp@gmail.com"
               className="text-blue-accent hover:underline"
             >
-              hello@rotatemd.com
+              rotatemdapp@gmail.com
             </a>
           </p>
         </article>

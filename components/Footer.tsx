@@ -20,7 +20,7 @@ export default function Footer() {
             <a href="#" className="hover:text-gray-300 transition-colors">
               Terms of Service
             </a>
-            <a href="mailto:hello@rotatemd.com" className="hover:text-gray-300 transition-colors">
+            <a href="mailto:rotatemdapp@gmail.com" className="hover:text-gray-300 transition-colors">
               Contact
             </a>
           </div>
