@@ -23,9 +23,9 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { label: "How It Works", href: "#how-it-works" },
-    { label: "Why RotateMD", href: "#trust" },
-    { label: "Join Waitlist", href: "#waitlist" },
+    { label: "How It Works", href: "/#how-it-works" },
+    { label: "Why RotateMD", href: "/#trust" },
+    { label: "Join Waitlist", href: "/#waitlist" },
   ];
 
   return (
@@ -38,7 +38,7 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-5 sm:px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2">
           <span className="w-2.5 h-2.5 rounded-full bg-teal-accent" />
           <span className="text-2xl font-bold tracking-tight">
             <span className="text-white">Rotate</span>
@@ -58,7 +58,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#waitlist"
+            href="/#waitlist"
             className="ml-2 px-5 py-2 rounded-full bg-blue-accent text-white text-sm font-medium hover:bg-blue-glow transition-colors"
           >
             Get Early Access
@@ -111,7 +111,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#waitlist"
+            href="/#waitlist"
             onClick={() => setMobileOpen(false)}
             className="mt-2 block text-center px-5 py-2.5 rounded-full bg-blue-accent text-white font-medium hover:bg-blue-glow transition-colors"
           >
