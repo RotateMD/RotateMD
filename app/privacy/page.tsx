@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — RotateMD",
@@ -8,14 +10,9 @@ export const metadata: Metadata = {
 export default function PrivacyPolicy() {
   return (
     <>
+      <Navbar />
       <header className="bg-navy-900 pt-24 pb-12 px-5 sm:px-6">
         <div className="max-w-3xl mx-auto">
-          <a
-            href="/"
-            className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm mb-8"
-          >
-            ← Back to Home
-          </a>
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
             Privacy Policy
           </h1>
@@ -263,6 +260,7 @@ export default function PrivacyPolicy() {
           </p>
         </article>
       </main>
+      <Footer />
     </>
   );
 }
